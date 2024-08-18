@@ -118,6 +118,7 @@ const EditProfileModal = ({ open, onClose, avatar, onApply }) => {
     }
     const updatedSkills = [...skills];
     updatedSkills[selectedSkillIndex].isEditing = false;
+    updatedSkills[selectedSkillIndex].isNew = false;
     setSkills(updatedSkills);
     handleMenuClose();
   };

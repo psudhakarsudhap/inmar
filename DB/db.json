@@ -34,13 +34,19 @@
         {
           "name": "java",
           "rating": "5",
-          "isEditing": true,
+          "isEditing": false,
           "isNew": false
         },
         {
           "name": "cpp",
           "rating": "9",
-          "isEditing": true,
+          "isEditing": false,
+          "isNew": false
+        },
+        {
+          "name": "react",
+          "rating": "7",
+          "isEditing": false,
           "isNew": false
         }
       ]
